@@ -13,9 +13,14 @@ namespace _01_ByteBank
             ContaCorrente contadaGabriela = new ContaCorrente();
 
             contadaGabriela.titular = "Gabriela";
+            contadaGabriela.numero = 1111;
+            contadaGabriela.numeroAgencia = 1212;
+            contadaGabriela.saldo = 13;
 
             Console.WriteLine(contadaGabriela.titular);
-
+            Console.WriteLine(contadaGabriela.numero);
+            Console.WriteLine(contadaGabriela.numeroAgencia);
+            Console.WriteLine(contadaGabriela.saldo);
             Console.ReadLine();
 
         }
